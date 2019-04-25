@@ -1,0 +1,8 @@
+# boot AARCH64 mode
+arm_control=0x200
+# kernel file
+kernel=kernel.bin
+# set pl011 to UART0
+dtoverlay=pi3-miniuart-bt
+# set uart clock to 48MHz(default)
+init_uart_clock=48000000
